@@ -9,6 +9,9 @@ h1,h2,p,img{
   height: 40vmin;
   pointer-events: none;
 }
+a{
+  text-decoration: none;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -54,7 +57,7 @@ h1,h2,p,img{
   position: relative;
 }
 body::-webkit-scrollbar {
-  width: 13px;
+  width: 8.5px;
   background-color: transparent;
   border-radius: 7px;
   scroll-behavior: smooth;

@@ -90,14 +90,22 @@
   border: none;
   align-self: center;
   border-radius: 11.8125rem;
-  background: rgb(118 9 9 / 88%);
+  background-color: #b24444;
   z-index: 34;
   transition: 0.3s;
+}
+.content button:hover {
+  background: rgb(118 9 9 / 88%);
 }
 
 @font-face {
   font-family: Exo;
   src: url(../../assets/fonts/Exo-VariableFont_wght.ttf);
+}
+
+.vectorimg {
+  position: relative;
+  left: 7rem;
 }
 
 .content button a {
@@ -108,11 +116,4 @@
   font-weight: 600;
   text-decoration: none;
   line-height: normal;
-}
-.content button:hover{
- background-color: #b24444;
-}
-.vectorimg {
-  position: relative;
-  left: 7rem;
 }

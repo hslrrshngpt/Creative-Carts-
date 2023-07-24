@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import {Footer, Navbar} from './components'
-import { About, Home, Info, Offer, Products } from './containers'
+import { About, Home, Info, Offer} from './containers'
 import ParticleBackground from './components/particles/ParticleBackground';
 
 const App = () => {

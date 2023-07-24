@@ -3,7 +3,7 @@
     align-content: center;
     padding: 0rem 0rem;
     align-items: center;
-    column-gap: 20%;
+    column-gap: 17%;
     flex-direction: row;
     background: #000;
     justify-content: flex-start;
@@ -14,10 +14,16 @@
 .tabs {
     display: flex;
     flex-direction: row;
+    width: inherit;
+    position: relative;
+    left: 14%;
+}
+.logo {
+    width: fit-content;
 }
 
 .logo img {
-    width: 52%;
+    width: 80%;
 }
 
 .tabs h5 {
