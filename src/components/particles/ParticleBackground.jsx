@@ -40,7 +40,7 @@ function App() {
               number: {
                 density: {
                   enable: true,
-                  area: 3140
+                  area: 1440
                 },
                 limit: 90,
                 value: 80,
@@ -51,11 +51,10 @@ function App() {
                   minimumValue: 0.5,
                   speed: 1,
                   sync: true,
-                  startValue: 1,
                 },
                 random: {
                   enable: true,
-                  minimumValue: 0.1,
+                  minimumValue: 0.01,
                 },
                 value: 1,
               },
@@ -66,9 +65,9 @@ function App() {
               size: {
                 random: {
                   enable: true,
-                  minimumValue: 4
+                  minimumValue:3
                 },
-                value: 5
+                value: 6
               }
             }
           }}

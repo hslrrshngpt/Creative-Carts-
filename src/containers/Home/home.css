@@ -33,6 +33,7 @@
   position: relative;
   line-height: 24px;
   right: 0;
+  background-color: #fff;
   margin-top: 5rem;
 }
 
@@ -91,7 +92,7 @@
   border-radius: 11.8125rem;
   background: rgb(118 9 9 / 88%);
   z-index: 34;
-  transition: transform 0.4s;
+  transition: 0.3s;
 }
 
 @font-face {
@@ -109,7 +110,7 @@
   line-height: normal;
 }
 .content button:hover{
-  transform: scale(1.01);
+ background-color: #b24444;
 }
 .vectorimg {
   position: relative;
