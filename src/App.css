@@ -54,7 +54,7 @@ h1,h2,p,img{
   position: relative;
 }
 body::-webkit-scrollbar {
-  width: 10px;
+  width: 13px;
   background-color: transparent;
   border-radius: 7px;
   scroll-behavior: smooth;
@@ -70,6 +70,6 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background: #000000;
   scroll-behavior: smooth;
-  border-radius: 6px;
+  border-radius: 2px;
   margin-right: 2px;
 }
