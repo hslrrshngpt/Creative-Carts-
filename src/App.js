@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import {Footer, Navbar} from './components'
-import { About, Home, Info, Products } from './containers'
+import { About, Home, Info, Offer, Products } from './containers'
 import ParticleBackground from './components/particles/ParticleBackground';
 
 const App = () => {
@@ -10,7 +10,7 @@ const App = () => {
       <div className='particles'><ParticleBackground/></div>
       <div className='static'><Navbar/></div>
       <Home />
-      <Products />
+      <Offer />
       <Info />
       <About />
       <Footer/>
