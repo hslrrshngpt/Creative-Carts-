@@ -2,7 +2,9 @@
   text-align: center;
   scroll-behavior: smooth;  
 }
-
+h1,h2,p,img{
+  cursor: context-menu;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -47,13 +49,14 @@
   width: 100%;
   z-index: 99;
 }
-.particles{
-  z-index: -1;
+.tsparticles, #tsparticles, .particles{
+  z-index: -9;
+  position: relative;
 }
 body::-webkit-scrollbar {
   width: 10px;
   background-color: transparent;
-  border-radius: 5px;
+  border-radius: 7px;
   scroll-behavior: smooth;
   margin-right: 3px;
 }
@@ -62,11 +65,11 @@ body::-webkit-scrollbar-track {
   background: transparent;
   scroll-behavior: smooth;
   border-radius: 3px;
+  width: 10px;
 }
-
 body::-webkit-scrollbar-thumb {
   background: #000000;
   scroll-behavior: smooth;
-  border-radius: 3px;
+  border-radius: 6px;
   margin-right: 2px;
 }

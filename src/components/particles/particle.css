@@ -1,3 +1,5 @@
-.tsparticles{
-    z-index: -12;
+.tsparticles,
+#tsparticles {
+  z-index: -12;
 }
+

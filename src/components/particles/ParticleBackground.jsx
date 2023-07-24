@@ -36,7 +36,7 @@ function App() {
               number: {
                 density: {
                   enable: true,
-                  area: 1440
+                  area: 2510
                 },
                 limit: 90,
                 value: 80,
