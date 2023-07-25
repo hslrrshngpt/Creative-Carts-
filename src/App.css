@@ -5,6 +5,9 @@
 h1,h2,p,img{
   cursor: context-menu;
 }
+body{
+  overflow: auto;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

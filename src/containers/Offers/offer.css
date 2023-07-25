@@ -2,6 +2,7 @@
 .overlay {
   z-index: 120;
   margin: 0 0;
+  overflow-y: hidden;
 }
 * {
   box-sizing: border-box;
@@ -77,10 +78,11 @@
 }
 
 .background4 img {
-  position: absolute;
-  left: 4rem;
-  margin: -8rem 1rem;
-  rotate: 308deg;
+  position: relative;
+    left: 2rem;
+    margin: -8rem 1rem;
+    bottom: 5rem;
+    rotate: 308deg;
 }
 
 .background4 {
