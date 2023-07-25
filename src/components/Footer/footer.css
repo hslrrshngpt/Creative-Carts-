@@ -1,0 +1,113 @@
+@font-face {
+  font-family: Noto;
+  src: url(../../assets/fonts/NotoSans-SemiBold.ttf);
+}
+@font-face {
+  font-family: newton;
+  src: url(../../assets/fonts/BeVietnamPro-SemiBold.ttf);
+}
+
+.contento {
+  background-image: url(../../assets/Footground.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 100%;
+}
+.ovr img {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 0rem;
+}
+
+.contento {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.Links {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  text-align: left;
+  margin: 10% 0rem 8%;
+  align-items: flex-start;
+}
+
+.Links div {
+  list-style: none;
+  margin: 0 1rem;
+}
+
+ul {
+  list-style: none;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  margin: 2.25% 5%;
+  line-height: 5px;
+  align-items: flex-start;
+}
+
+.title h1 {
+  color: white;
+  font-family: newton;
+  font-size: 300%;
+}
+
+.title h5 {
+  color: white;
+  margin: 5% 5% 4%;
+  letter-spacing: 0.05em;
+  font-size: 120%;
+  font-family: Exo;
+}
+
+.title p {
+  font-size: 115%;
+  letter-spacing: 0.05em;
+  color: white;
+  font-family: Exo;
+  margin: 3% 4% 1%;
+}
+
+.title a {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  margin: 2% 4%;
+  font-family: Exo;
+  font-size: 115%;
+}
+.Links div h1 {
+  color: #fff;
+  margin-bottom: 0;
+  font-family: "Inria";
+}
+
+.Links div ul li p {
+  margin: 4% 0%;
+}
+
+.Links div ul li p a {
+  color: #fff;
+  font-family: "Exo";
+  font-weight: 600;
+  transition: transform 0.8;
+}
+.Links div ul li p a:hover{
+    color: rgb(224, 183, 165);
+}
+
+.Links ul {
+  position: relative;
+  margin-top: 5%;
+  right: 9%;
+}
+.paymopts {
+    width: 55%;
+    box-shadow: 217rem 69rem 7rem 9rem white inset;
+}
