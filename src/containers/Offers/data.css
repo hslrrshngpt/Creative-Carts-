@@ -124,12 +124,12 @@
   border: none;
   align-self: center;
   border-radius: 11.8125rem;
-  background-color: #b24444;
+  background-color: #bc3d3de0;
   z-index: 34;
   transition: 0.3s;
 }
 .pricebtn2:hover {
-  background: rgb(118 9 9 / 88%);
+  background-color: #a35959;
 }
 .background3 {
   width: 89%;
