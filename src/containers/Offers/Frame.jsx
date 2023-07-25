@@ -1,5 +1,6 @@
 import React from "react";
 import "./data.css";
+import "./frame.js"
 export const Product = (props) => {
   const { id, productname, originalprice, price, productimage, productdesc } =
     props.data;

@@ -8,12 +8,14 @@ export const GIFTOFFERS = [
   {
     id: 1,
     productname: "Valentine Cup gift",
+    originalprice: 699,
     price: 499,
     productimage: product1,
 },
   {
     id: 2,
     productname: "Cute Anime keychain",
+    originalprice: 699,
     price: 499,
     productimage: product2,
 },

@@ -57,22 +57,9 @@ a{
   position: relative;
 }
 body::-webkit-scrollbar {
-  width: 8.5px;
+  width: 0;
   background-color: transparent;
   border-radius: 7px;
   scroll-behavior: smooth;
   margin-right: 3px;
-}
-
-body::-webkit-scrollbar-track {
-  background: transparent;
-  scroll-behavior: smooth;
-  border-radius: 3px;
-  width: 10px;
-}
-body::-webkit-scrollbar-thumb {
-  background: #000000;
-  scroll-behavior: smooth;
-  border-radius: 2px;
-  margin-right: 2px;
 }

@@ -30,6 +30,7 @@
   background: rgba(36, 36, 36, 0.88);
   padding: 0.6% 1%;
   transition: transform 0.4s;
+  margin-top: 1rem;
 }
 .shopbtn:hover {
   transform: scale(0.97);
@@ -86,13 +87,29 @@
   width: fit-content;
 }
 
-
-.prevbtn, .nextbtn{
-  height: 100%;
+.prevbtn,
+.nextbtn {
   border: none;
-  width: 60px;
+  position: absolute;
+  width: 24px;
+  margin: 0rem 2%;
+  align-items: center;
+  height: 58%;
+  background: none;
+  font-size: 133%;
+  color: #9a7c7c;
+  transition: 0.4s;
+  cursor: pointer;
+  z-index: 165;
 }
-.prevbtn{
-  align-self: flex-start;
+.prevbtn:hover,.nextbtn:hover{
+  color: #7d6969;
 }
-.prevbtn{align-self: flex-end;}
+.prevbtn {
+  left: 0 ;
+  display: flex;
+}
+.nextbtn {
+  right: 0;
+  display: flex;
+}

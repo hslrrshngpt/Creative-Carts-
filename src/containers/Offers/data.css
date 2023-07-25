@@ -2,11 +2,9 @@
 .flex {
   overflow-y: hidden;
 }
-.pricebtn {
-  margin: 0rem 0rem 5% 49%;
+.pricebtn,
+.pricebtn2 {
   position: relative;
-  bottom: 2rem;
-  left: 4rem;
   width: 13.85rem;
   height: 3.475rem;
   flex-shrink: 0;
@@ -20,25 +18,28 @@
 .pricebtn:hover {
   background: rgb(118 9 9 / 88%);
 }
-.pricebtn a p{
-    color: #fff;
-    font-family: Exo;
-    font-size: 191%;
-    font-style: normal;
-    font-weight: 600;
-    cursor: pointer;
-    text-decoration: none;
-    line-height: 32%;
+.pricebtn a p,
+.pricebtn2 a p {
+  color: #fff;
+  font-family: Exo;
+  font-size: 191%;
+  font-style: normal;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  line-height: 32%;
 }
-.pricebtn a p span{
-    text-decoration: line-through;
-    color: #000;
+.pricebtn a p span,
+.pricebtn2 a p span {
+  text-decoration: line-through;
+  color: #000;
 }
 /* Frame.jsx ____________________________________ */
 .flexbox {
   display: flex;
   flex-direction: row;
   background: #f6e5e5;
+  min-width: fit-content;
 }
 .imgdiv {
   width: 25%;
@@ -49,13 +50,19 @@
 
 .framescreening {
   margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  scroll-behavior: smooth;
+  overflow: hidden;
 }
 
 .productscreening {
   display: flex;
   width: 100%;
   align-items: center;
-  padding: 2rem 1rem;
+  padding: 2rem 4rem 0 1rem;
   justify-content: center;
   column-gap: 0rem;
 }
@@ -102,5 +109,77 @@
   flex-direction: column;
   align-items: flex-start;
 }
+.pricebtn {
+  margin: 0rem 0rem 5% 49%;
+  left: 4rem;
+  bottom: 2rem;
+}
 
 /* Gift.jsx ____________________________________ */
+.pricebtn2 {
+  position: relative;
+  width: 13.85rem;
+  height: 3.475rem;
+  flex-shrink: 0;
+  border: none;
+  align-self: center;
+  border-radius: 11.8125rem;
+  background-color: #b24444;
+  z-index: 34;
+  transition: 0.3s;
+}
+.pricebtn2:hover {
+  background: rgb(118 9 9 / 88%);
+}
+.background3 {
+  width: 89%;
+  position: relative;
+  bottom: 9rem;
+}
+
+.tscreening {
+  margin-top: 0rem;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 0rem;
+  justify-content: space-between;
+  overflow:hidden;
+  scroll-behavior: smooth;
+  align-content: center;
+  flex-wrap: nowrap;
+}
+
+.productimg {
+  width: 90%;
+  border-radius: 2rem;
+}
+
+.giftcontent {
+  margin: 2rem 0rem;
+  display: flex;
+  background: #cfa4a4;
+  border-radius: 3rem;
+  padding: 1rem 0;
+  flex-direction: column;
+  align-items: center;
+  z-index: 123;
+}
+
+.name h4 {
+  font-size: 170%;
+  max-width: 22rem;
+  margin: 1rem 0rem;
+  text-align: center;
+}
+
+.name {
+  align-self: center;
+  display: flex;
+}
+.flex {
+  min-width: 25rem;
+  overflow-y: hidden;
+  margin: 0rem 3rem;
+}
