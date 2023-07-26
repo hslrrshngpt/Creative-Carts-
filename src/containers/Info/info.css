@@ -43,11 +43,13 @@
 .questionaire {
   background: #f0c9c9;
   padding-top: 2%;
-  min-width: 65%;
+  min-width: 60%;
   border-radius: 0 10rem 10rem 0rem;
+  max-width: 60%;
 }
 .flexboxfaq {
   display: flex;
+  align-items: center;
   justify-content: flex-start;
 }
 
