@@ -83,6 +83,7 @@
     margin: -8rem 1rem;
     bottom: 5rem;
     rotate: 308deg;
+    z-index: -443;
 }
 
 .background4 {

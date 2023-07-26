@@ -1,0 +1,84 @@
+.accordian {
+  display: flex;
+  align-content: center;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+.right,
+.down {
+  max-width: 2rem;
+  min-width: 2rem;
+}
+.answers {
+  text-align: left;
+  padding: 1rem 2rem;
+  color: #fff;
+  margin: 0rem 2rem;
+  background: rgb(118 9 84 / 88%);
+  border-radius: 0 4rem 4rem 4rem;
+  filter: drop-shadow(-5px 0px 0px #c38cb2);
+  font-size: 117%;
+}
+
+.indicators {
+  min-height: 2rem;
+  background: #f0e5b4;
+  align-items: center;
+  border-radius: 5rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+.question {
+  margin: 0% 0% 0% 2%;
+  font-size: 140%;
+  font-family: "Exo";
+}
+
+.overlay1 {
+  padding-left: 6rem;
+}
+
+.questionaire {
+  background: #f0c9c9;
+  padding-top: 2%;
+  min-width: 65%;
+  border-radius: 0 10rem 10rem 0rem;
+}
+.flexboxfaq {
+  display: flex;
+  justify-content: flex-start;
+}
+
+img.faqimg {
+  margin-left: 15%;
+  width: 15%;
+}
+.sometitle h1 {
+  font-size: 275%;
+  background: #fff;
+}
+.moreFAQs {
+  color: #fff;
+  font-family: Exo;
+  font-size: 140%;
+  font-style: normal;
+  font-weight: 600;
+  text-decoration: none;
+  line-height: normal;
+  border-radius: 11.8125rem;
+  background: rgba(36, 36, 36, 0.88);
+  padding: 0.6% 1%;
+  transition: transform 0.4s;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+  cursor: pointer;
+}
+.moreFAQs:hover {
+  transform: scale(0.98);
+}
+.moreFAQs a{
+    text-decoration: none;
+    color: #fff;
+}

@@ -8,6 +8,9 @@ h1,h2,p,img{
 body{
   overflow: auto;
   list-style: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 .App-logo {
