@@ -1,0 +1,44 @@
+.contend {
+    display: flex;
+    background: #ffaaaa;
+    justify-content: flex-start;
+    flex-direction: column;
+    max-width: 70%;
+    border-radius: 0 11rem 11rem 0rem;
+    margin-bottom: 5%;
+    align-items: flex-start;
+}
+
+
+.about {
+    display: flex;
+    align-items: center;
+}
+
+.logos img {
+    border-radius: 0 4rem 4rem 0rem;
+    width: 40%;
+    align-self: inherit;
+    display: flex;
+    margin-top: 1%;
+}
+.contend p {
+    font-size: 150%;
+    text-align: left;
+    padding: 0% 1%;
+    margin: 4% 6%;
+    font-weight: 500;
+}
+
+.contend p a {
+    color: brown;
+}
+
+.contend p span {
+    color: brown;
+}
+.aboutlogo {
+    width: 42%;
+    rotate: 44deg;
+    align-self: flex-start;
+}
