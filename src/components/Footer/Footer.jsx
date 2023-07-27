@@ -12,7 +12,7 @@ const Footer = () => {
           <h1>Creative carts</h1>
           <h5>Creative Carts Ltd</h5>
           <p>+91 91100 66290</p>
-          <p><FontAwesomeIcon icon={faPaperPlane} style={{color: "#ffffff",}}/> Carts.Creativecarts@gmail.com</p>
+          <p><FontAwesomeIcon icon={faPaperPlane} style={{color: "#ffffff",}}/> Creativecarts.in@gmail.com</p>
           <a href="https://www.instagram.com/creativecarts.in"><FontAwesomeIcon icon={faInstagram} style={{color: "#ffffff",}} /> Creativecarts.in</a>
         </div>
         <div className="Links">
