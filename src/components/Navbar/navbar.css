@@ -91,6 +91,8 @@ body {
   #navbar {
     display: flex;
     flex-direction: column;
+    width: 92%;
+    overflow-x: hidden;
 }
 
 .logo {

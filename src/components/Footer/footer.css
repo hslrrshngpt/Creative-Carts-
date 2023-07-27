@@ -1,3 +1,7 @@
+#footer{
+  overflow-x: hidden;
+}
+
 @font-face {
   font-family: Noto;
   src: url(../../assets/fonts/NotoSans-SemiBold.ttf);
@@ -23,7 +27,6 @@
 .contento {
   display: flex;
   flex-direction: row;
-
 }
 
 .Links {
@@ -98,8 +101,8 @@ ul {
   font-weight: 600;
   transition: transform 0.8;
 }
-.Links div ul li p a:hover{
-    color: rgb(224, 183, 165);
+.Links div ul li p a:hover {
+  color: rgb(224, 183, 165);
 }
 
 .Links ul {
@@ -108,6 +111,60 @@ ul {
   right: 9%;
 }
 .paymopts {
-    width: 55%;
-    box-shadow: 217rem 69rem 7rem 9rem white inset;
+  width: 55%;
+  box-shadow: 217rem 69rem 7rem 9rem white inset;
+}
+@media (max-width: 767px) {
+  .contento {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position-x: -61rem;
+  }
+
+  .title h1 {
+    font-size: 200%;
+    text-align: center;
+  }
+
+  .title {
+    flex-direction: column;
+    align-items: stretch;
+    text-align: justify;
+  }
+
+  .title h5,
+  .title p,
+  .title a {
+    text-align: center;
+    font-size: 75%;
+  }
+
+  .Links {
+    flex-direction: column;
+    border-top: solid #fff;
+    align-items: center;
+    border-bottom: 3px solid #fff;
+  }
+
+  .Links div h1 {
+    text-align: center;
+  }
+  .Links div ul li p {
+    text-align: center;
+    line-height: 130%;
+  }
+
+  .Links ul li p a svg {
+    display: none;
+  }
+
+  .Links div ul li p a {
+    font-size: 81%;
+    line-height: 0px;
+  }
+
+  .paymopts {
+    width: 100%;
+  }
 }
