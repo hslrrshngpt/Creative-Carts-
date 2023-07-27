@@ -80,11 +80,11 @@ img.faqimg {
 .moreFAQs:hover {
   transform: scale(0.98);
 }
-.moreFAQs a{
-    text-decoration: none;
-    color: #fff;
+.moreFAQs a {
+  text-decoration: none;
+  color: #fff;
 }
-@media (max-width:767px) {
+@media (max-width: 767px) {
   .flexboxfaq {
     width: 100%;
     flex-direction: column;
@@ -134,8 +134,25 @@ img.faqimg {
     font-size: 75%;
     border-radius: 0rem 2rem 2rem 2rem;
   }
-  .overlay1{
+  .overlay1 {
     padding: 0;
     margin: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .overlay1 {
+    width: 120%;
+  }
+
+  .questionaire {
+    min-width: 99%;
+  }
+
+  .answers {
+    width: 65%;
+  }
+
+  .moreFAQs {
+    margin-top: 1rem;
   }
 }

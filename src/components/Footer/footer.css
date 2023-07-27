@@ -1,4 +1,4 @@
-#footer{
+#footer {
   overflow-x: hidden;
 }
 
@@ -166,5 +166,64 @@ ul {
 
   .paymopts {
     width: 100%;
+  }
+}
+@media (min-width: 767.5px) and (max-width: 991px) {
+  .contento {
+    flex-direction: column;
+  }
+
+  .title {
+    align-items: center;
+    line-height: 0px;
+  }
+
+  .title h5,
+  .title p,
+  .title a {
+    line-height: 1.86rem;
+    margin: 0;
+  }
+
+  .Links {
+    background: #3f0d2e8c;
+    display: flex;
+    border-top: solid #fff 2px;
+    flex-direction: row;
+    column-gap: 2%;
+    margin-top: 2rem;
+    justify-content: center;
+  }
+
+  .Links div {
+    margin: 0%;
+  }
+
+  .Links ul {
+    padding-left: 15.54%;
+  }
+
+  .Links div ul li p a {
+    font-size: 85%;
+  }
+
+  .Links div h1 {
+    font-size: 137%;
+  }
+
+  .PRODUCTS {
+    width: 30%;
+  }
+
+  .SERVICES {
+    width: 20%;
+  }
+
+  .HELP {
+    width: 28%;
+  }
+
+  .ABOUTUS {
+    padding-left: 6%;
   }
 }

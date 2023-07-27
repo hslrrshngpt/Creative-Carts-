@@ -26,7 +26,7 @@ const Products = () => {
       frameCarouselRef.current.scrollLeft += containerWidth;
     };
 
-    const frameScrollInterval = setInterval(scrollNextFrame, 5000);
+    const frameScrollInterval = setInterval(scrollNextFrame, 55645656654000);
 
     return () => clearInterval(frameScrollInterval);
   }, []);
@@ -54,7 +54,7 @@ const Products = () => {
       giftCarouselRef.current.scrollLeft += containerWidth;
     };
 
-    const giftScrollInterval = setInterval(scrollNextGift, 5000);
+    const giftScrollInterval = setInterval(scrollNextGift, 516564641000);
 
     return () => clearInterval(giftScrollInterval);
   }, []);
@@ -70,7 +70,7 @@ const Products = () => {
   };
 
   // Looping variables
-  const maxLoops = 100;
+  const maxLoops = 50;
   const loopInterval = 5000; // 5 seconds
   const [remainingLoops, setRemainingLoops] = useState(maxLoops);
 

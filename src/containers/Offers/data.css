@@ -327,3 +327,66 @@
     margin: 3rem 0;
   }
 }
+@media (min-width: 767.5px) and (max-width:991px) {
+  .infodiv {
+    margin-bottom: 1rem;
+}
+
+.infodiv h1 {
+    font-family: 'Exo';
+    font-size: 150%;
+}
+
+.infodiv p {
+    font-size: 110%;
+    margin: 1% 2% 0;
+}
+
+.pricebtn {
+    left: 0;
+    bottom: 0;
+    margin: 1rem 0rem 3rem 9rem;
+    width: 40%;
+    height: 2.84rem;
+}
+
+.pricebtn a p {
+    font-size: 140%;
+}
+
+.imgdiv {
+    width: 40%;
+}
+
+.nextbtn,.prevbtn {
+    height: 40%;
+    font-size: 85%;
+}
+
+.productimg {
+    width: 90%;
+    border-radius: 1rem;
+}
+
+.giftcontent {
+    width: 18rem;
+    margin: 0;
+    border-radius: 2rem;
+}
+
+.name h4 {
+    font-size: 131%;
+}
+
+.pricebtn2 {
+    width: 59%;
+    height: 3.125rem;
+}
+
+.pricebtn2 a p {
+    font-size: 100%;
+}
+.flex {
+  margin: 1rem -5rem 1rem 1rem;
+}
+}

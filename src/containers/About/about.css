@@ -66,3 +66,13 @@
         line-height: 17px;
     }
 }
+@media (min-width:767.5px) and (max-width:991px) {
+    .contend {
+        min-width: 100%;
+        border-radius: 0;
+    }
+    
+    .contend p {
+        font-size: 113%;
+    }
+}

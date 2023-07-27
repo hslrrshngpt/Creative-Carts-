@@ -148,4 +148,8 @@
     font-size: 120%;
     margin: 2rem 0rem;
   }
+.nextbtn,.prevbtn {
+    height: 40%;
+    font-size: 85%;
+}
 }
