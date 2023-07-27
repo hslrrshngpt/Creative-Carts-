@@ -22,7 +22,7 @@ const Info = () => {
         <img src={sourcecomponent} alt="FAQs" className="faqimg" />
       </div>
       <button className="moreFAQs">
-        <a href="">More FAQs</a>
+        <a href="#">More FAQs</a>
       </button>
     </div>
   );

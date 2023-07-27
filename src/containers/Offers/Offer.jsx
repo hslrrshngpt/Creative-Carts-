@@ -122,7 +122,7 @@ const Products = () => {
             )}
           </div>
           <button className="shopbtn">
-            <a href="">Shop Now !</a>
+            <a href="#">Shop Now !</a>
           </button>
         </div>
         <div className="productcontent">
@@ -146,7 +146,7 @@ const Products = () => {
             )}
           </div>
           <button className="shopbtn">
-            <a href="">Shop Now !</a>
+            <a href="#">Shop Now !</a>
           </button>
           <div className="background4">
             <img src={giftoffer2} alt="giftoffer2" />

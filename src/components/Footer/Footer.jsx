@@ -20,9 +20,9 @@ const Footer = () => {
             <h1>About Us</h1>
             <ul>
               <li>
-                <p><a href=""><FontAwesomeIcon icon={faAngleRight} /> About Page</a></p>
-                <p><a href=""><FontAwesomeIcon icon={faAngleRight} /> Terms and Conditions</a></p>
-                <p><a href=""><FontAwesomeIcon icon={faAngleRight} /> FAQ's</a></p>
+                <p><a href="#"><FontAwesomeIcon icon={faAngleRight} /> About Page</a></p>
+                <p><a href="#"><FontAwesomeIcon icon={faAngleRight} /> Terms and Conditions</a></p>
+                <p><a href="#"><FontAwesomeIcon icon={faAngleRight} /> FAQ's</a></p>
               </li>
             </ul>
           </div>
@@ -30,12 +30,12 @@ const Footer = () => {
           <h1>Products</h1>
             <ul>
               <li>
-                <p><a href=""><FontAwesomeIcon icon={faAngleRight} /> Customised Mosaic Cups</a></p>
-                <p><a href=""><FontAwesomeIcon icon={faAngleRight} /> Customizd Gift Frames</a></p>
-                <p><a href=""><FontAwesomeIcon icon={faAngleRight} /> Photo Polaroids</a></p>
-                <p><a href=""><FontAwesomeIcon icon={faAngleRight} /> Rings and Chains</a></p>
-                <p><a href=""><FontAwesomeIcon icon={faAngleRight} /> Variety of Posters</a></p>
-                <p><a href=""><FontAwesomeIcon icon={faAngleRight} /> More Gifts</a></p>
+                <p><a href="#"><FontAwesomeIcon icon={faAngleRight} /> Customised Mosaic Cups</a></p>
+                <p><a href="#"><FontAwesomeIcon icon={faAngleRight} /> Customizd Gift Frames</a></p>
+                <p><a href="#"><FontAwesomeIcon icon={faAngleRight} /> Photo Polaroids</a></p>
+                <p><a href="#"><FontAwesomeIcon icon={faAngleRight} /> Rings and Chains</a></p>
+                <p><a href="#"><FontAwesomeIcon icon={faAngleRight} /> Variety of Posters</a></p>
+                <p><a href="#"><FontAwesomeIcon icon={faAngleRight} /> More Gifts</a></p>
               </li>
             </ul>
           </div>
@@ -43,11 +43,11 @@ const Footer = () => {
           <h1>Services</h1>
             <ul>
               <li>
-                <p><a href=""><FontAwesomeIcon icon={faAngleRight} /> Track Order</a></p>
-                <p><a href=""><FontAwesomeIcon icon={faAngleRight} /> Shipping Policy</a></p>
-                <p><a href=""><FontAwesomeIcon icon={faAngleRight} /> Shop Now</a></p>
-                <p><a href=""><FontAwesomeIcon icon={faAngleRight} /> Login/Signup</a></p>
-                <p><a href=""><FontAwesomeIcon icon={faAngleRight} /> Privacy Policy</a></p>
+                <p><a href="#"><FontAwesomeIcon icon={faAngleRight} /> Track Order</a></p>
+                <p><a href="#"><FontAwesomeIcon icon={faAngleRight} /> Shipping Policy</a></p>
+                <p><a href="#"><FontAwesomeIcon icon={faAngleRight} /> Shop Now</a></p>
+                <p><a href="#"><FontAwesomeIcon icon={faAngleRight} /> Login/Signup</a></p>
+                <p><a href="#"><FontAwesomeIcon icon={faAngleRight} /> Privacy Policy</a></p>
               </li>
             </ul>
           </div>
@@ -55,12 +55,12 @@ const Footer = () => {
           <h1>Help</h1>
             <ul>
               <li>
-                <p><a href=""><FontAwesomeIcon icon={faAngleRight} />  My Profile</a></p>
-                <p><a href=""><FontAwesomeIcon icon={faAngleRight} />  Contact Us</a></p>
-                <p><a href=""><FontAwesomeIcon icon={faAngleRight} />  FAQ's</a></p>
-                <p><a href=""><FontAwesomeIcon icon={faAngleRight} />  Terms and Conditions</a></p>
-                <p><a href=""><FontAwesomeIcon icon={faAngleRight} />  Login Now</a></p>
-                <p><a href=""><FontAwesomeIcon icon={faAngleRight} /> Contact Us</a></p>
+                <p><a href="#"><FontAwesomeIcon icon={faAngleRight} />  My Profile</a></p>
+                <p><a href="#"><FontAwesomeIcon icon={faAngleRight} />  Contact Us</a></p>
+                <p><a href="#"><FontAwesomeIcon icon={faAngleRight} />  FAQ's</a></p>
+                <p><a href="#"><FontAwesomeIcon icon={faAngleRight} />  Terms and Conditions</a></p>
+                <p><a href="#"><FontAwesomeIcon icon={faAngleRight} />  Login Now</a></p>
+                <p><a href="#"><FontAwesomeIcon icon={faAngleRight} /> Contact Us</a></p>
               </li>
             </ul>
           </div>

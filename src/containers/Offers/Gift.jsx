@@ -11,7 +11,7 @@ export const Gifts = (props) => {
             <h4>{productname}</h4>
           </div>
           <button className="pricebtn2">
-            <a href="">
+            <a href="#">
               <p>
                 <span>₹ {originalprice}/-</span> ₹ {price}/-
               </p>
