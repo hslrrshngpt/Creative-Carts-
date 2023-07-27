@@ -165,7 +165,8 @@
   .content button {
     width: 12rem;
     height: 2.8rem;
-    font-size: 0rem;
+    font-size: 135%;
+    margin-bottom: 3rem;
   }
 
   .content {

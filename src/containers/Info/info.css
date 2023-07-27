@@ -84,3 +84,58 @@ img.faqimg {
     text-decoration: none;
     color: #fff;
 }
+@media (max-width:767px) {
+  .flexboxfaq {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+    background: #f0c9c994;
+  }
+
+  .accordian {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: 1rem 0rem;
+    margin-left: 5px;
+    justify-content: flex-start;
+  }
+
+  .question {
+    font-size: 90%;
+    font-weight: 700;
+  }
+
+  .indicators {
+    margin: 0;
+  }
+
+  .faqimg {
+    display: none;
+  }
+
+  .moreFAQs {
+    margin: 2rem 0 5rem;
+    padding: 1.4%;
+  }
+
+  .questionaire {
+    background: transparent;
+    min-width: 100%;
+  }
+
+  .moreFAQs a {
+    font-size: 100%;
+    padding: 0rem 1rem;
+  }
+  .answers {
+    font-size: 75%;
+    border-radius: 0rem 2rem 2rem 2rem;
+  }
+  .overlay1{
+    padding: 0;
+    margin: 0;
+  }
+}

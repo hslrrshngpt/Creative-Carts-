@@ -145,7 +145,7 @@
   align-items: center;
   column-gap: 0rem;
   justify-content: space-between;
-  overflow:hidden;
+  overflow: hidden;
   scroll-behavior: smooth;
   align-content: center;
   flex-wrap: nowrap;
@@ -182,4 +182,147 @@
   min-width: 25rem;
   overflow-y: hidden;
   margin: 0rem 3rem;
+}
+
+@media (max-width: 767.5px) {
+  .infodiv h1 {
+    font-size: 140%;
+  }
+
+  .infodiv p {
+    text-align: center;
+    font-size: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .infodiv {
+    margin: 1rem;
+    text-align: center;
+  }
+
+  .productscreening {
+    display: flex;
+    flex-direction: column;
+    padding: 2.5% 1rem;
+    align-items: center;
+  }
+
+  .informationdiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+  }
+
+  .pricebtn {
+    margin: 0;
+    left: 0;
+    bottom: 0;
+    width: 50%;
+    font-size: 66%;
+    height: 20%;
+    margin-bottom: 2rem;
+  }
+
+  .pricebtn a p {
+    padding: 0;
+    margin: 0;
+    font-size: 160%;
+  }
+
+  .imgdiv {
+    margin-top: 1rem;
+    width: 70%;
+  }
+
+  .productimg {
+    width: 85%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .giftcontent {
+    margin: 0px 0rem;
+    border-radius: 2rem;
+    width: 100%;
+    padding: 1rem 1rem;
+    background-color: transparent;
+  }
+
+  .flex {
+    min-width: 100%;
+    margin: 0;
+  }
+
+  .name h4 {
+    font-size: 200%;
+  }
+
+  .pricebtn2 {
+    width: 8rem;
+    height: 3rem;
+  }
+
+  .pricebtn2 a p {
+    font-size: 126%;
+    padding: 0;
+    margin: 0;
+  }
+
+  img.productimg {
+    width: 70;
+  }
+
+  .screening {
+    margin: 0;
+    width: auto;
+  }
+
+  .productimg {
+    width: 85%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .giftcontent {
+    margin: 0px 0rem;
+    border-radius: 2rem;
+    width: 100%;
+    padding: 1rem 1rem;
+  }
+
+  .flex {
+    min-width: 100%;
+    margin: 0;
+  }
+
+  .pricebtn2 {
+    width: 8rem;
+    height: 3rem;
+  }
+
+  .pricebtn2 a p {
+    font-size: 126%;
+    padding: 0;
+    margin: 0;
+  }
+
+  img.productimg {
+    width: 70;
+  }
+
+  .screening {
+    margin: 0;
+    width: auto;
+  }
+
+  .tscreening {
+    background: #ffcaca;
+  }
+
+  .sometitle h1 {
+    font-size: 196%;
+    margin: 3rem 0;
+  }
 }

@@ -26,7 +26,7 @@ const Products = () => {
       frameCarouselRef.current.scrollLeft += containerWidth;
     };
 
-    const frameScrollInterval = setInterval(scrollNextFrame, 4000);
+    const frameScrollInterval = setInterval(scrollNextFrame, 444444000);
 
     return () => clearInterval(frameScrollInterval);
   }, []);
@@ -54,7 +54,7 @@ const Products = () => {
       giftCarouselRef.current.scrollLeft += containerWidth;
     };
 
-    const giftScrollInterval = setInterval(scrollNextGift, 4000);
+    const giftScrollInterval = setInterval(scrollNextGift, 444444000);
 
     return () => clearInterval(giftScrollInterval);
   }, []);

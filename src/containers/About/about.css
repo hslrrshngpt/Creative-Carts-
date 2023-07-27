@@ -42,3 +42,26 @@
     rotate: 44deg;
     align-self: flex-start;
 }
+
+@media (max-width:767px) {
+    .aboutlogo {
+        position: absolute;
+        filter: blur(1px);
+        right: 0;
+        opacity: 0.778;
+    }
+    
+    .contend {background: #ffaaaa;min-width: 100%;border-radius: 0;}
+    
+    .logos img {
+        width: 70%;
+        margin: 1rem 0;
+    }
+    
+    .contend p {
+        font-size: 98%;
+        font-weight: 600;
+        font-family: 'Inria';
+        line-height: 17px;
+    }
+}

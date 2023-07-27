@@ -79,11 +79,11 @@
 
 .background4 img {
   position: relative;
-    left: 2rem;
-    margin: -8rem 1rem;
-    bottom: 5rem;
-    rotate: 308deg;
-    z-index: -443;
+  left: 2rem;
+  margin: -8rem 1rem;
+  bottom: 5rem;
+  rotate: 308deg;
+  z-index: -443;
 }
 
 .background4 {
@@ -103,16 +103,49 @@
   color: #9a7c7c;
   transition: 0.4s;
   cursor: pointer;
-  z-index: 165;
+  z-index: 55;
 }
-.prevbtn:hover,.nextbtn:hover{
+.prevbtn:hover,
+.nextbtn:hover {
   color: #7d6969;
 }
 .prevbtn {
-  left: 0 ;
+  left: 0;
   display: flex;
 }
 .nextbtn {
   right: 0;
   display: flex;
+}
+@media (max-width: 767.5px) {
+  .background1,
+  .background3,
+  .background2,
+  .background4 {
+    display: none;
+  }
+
+  .frametitle h1,
+  .producttitle h1 {
+    font-size: 120%;
+    margin: 2rem 0rem;
+  }
+  .nextbtn,.prevbtn{
+    font-size: 80%;
+  }
+  
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .background1,
+  .background3,
+  .background2,
+  .background4 {
+    display: none;
+  }
+
+  .frametitle h1,
+  .producttitle h1 {
+    font-size: 120%;
+    margin: 2rem 0rem;
+  }
 }
