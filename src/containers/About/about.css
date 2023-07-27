@@ -47,8 +47,9 @@
     .aboutlogo {
         position: absolute;
         filter: blur(1px);
-        right: 0;
-        opacity: 0.778;
+        overflow-x: hidden;
+        right: 23%;
+        opacity: 0.478;
     }
     
     .contend {background: #ffaaaa;min-width: 100%;border-radius: 0;}
