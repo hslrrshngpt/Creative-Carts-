@@ -117,3 +117,140 @@
   text-decoration: none;
   line-height: normal;
 }
+@media (max-width: 767px) {
+  .content h1 {
+    padding: 0rem 3rem;
+    font-size: 225%;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 2rem 1rem;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background: none;
+    align-self: center;
+  }
+
+  .homeflex {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 1rem;
+  }
+
+  .vectorimg {
+    align-self: center;
+    position: absolute;
+    opacity: 0.3;
+    top: 5rem;
+    left: -32px;
+  }
+  .content h1 span {
+    border-radius: 5rem;
+    margin: 1rem 11rem;
+    padding: 1rem 2rem;
+  }
+
+  .content p {
+    margin: 0rem 3rem 9rem;
+    text-align: center;
+    padding: 0 29%;
+    font-size: 160%;
+    line-height: 1.3em;
+  }
+
+  .content button {
+    width: 12rem;
+    height: 2.8rem;
+    font-size: 0rem;
+  }
+
+  .content {
+    margin: 0;
+  }
+
+  .bottomvec {
+    display: none;
+  }
+  .vectorimg img {
+    margin: 0;
+    filter: brightness(1);
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .content h1 {
+    padding: 1rem 1rem;
+    font-size: 294%;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 1rem;
+    align-items: center;
+    justify-content: center;
+    background: none;
+  }
+
+  .homeflex {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 1rem;
+  }
+
+  .vectorimg {
+    align-self: center;
+    position: absolute;
+    opacity: 0.19;
+    top: 0;
+    left: 0;
+    margin-left: 16%;
+  }
+  .vectorimg img {
+    margin: 0;
+    filter: brightness(0.89);
+  }
+  .content h1 span {
+    border-radius: 5rem;
+    margin: 1rem 11rem;
+    padding: 1rem 2rem;
+  }
+
+  .content p {
+    margin: 1rem 0rem 5rem 0;
+    text-align: center;
+    padding: 0 17%;
+    background: none;
+    z-index: 4;
+  }
+
+  .content button {
+    width: 12rem;
+    height: 2.8rem;
+    filter: drop-shadow(4px 4px 0px #c95959);
+    font-size: 0rem;
+  }
+
+  .content {
+    margin: 0;
+  }
+
+  .bottomvec {
+    left: -5%;
+    bottom: -5rem;
+    position: absolute;
+    width: 200%;
+    z-index: 3;
+  }
+  .bottomvec img {
+    width: 22%;
+    z-index: -1;
+    filter: brightness(1.4);
+    position: relative;
+    right: 0px;
+  }
+}
