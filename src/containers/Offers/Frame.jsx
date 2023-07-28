@@ -2,7 +2,7 @@ import React from "react";
 import "./data.css";
 import "./frame.js"
 export const Product = (props) => {
-  const { productname, originalprice, price, productimage, productdesc } =
+  const { id, productname, originalprice, price, productimage, productdesc } =
     props.data;
   return (
     <div className="flexbox">

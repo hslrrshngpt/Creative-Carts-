@@ -1,13 +1,13 @@
 import React, { useState, useEffect, useRef } from 'react';
-import './offer.css';
+import './offer.css'; // Create your own CSS file to style the carousel.
 import camoffer1 from '../../assets/camerahomepage.png';
 import camoffer2 from '../../assets/camerahomepage.png';
-import giftoffer1 from '../../assets/Gifthomepage.png'
-import giftoffer2 from '../../assets/Gifthomepage.png'
 import { FRAMEOFFERS } from './frame.js';
 import { GIFTOFFERS } from './gift.js';
 import { Product } from './Frame.jsx';
 import { Gifts } from './Gift.jsx';
+import giftoffer1 from '../../assets/Gifthomepage.png';
+import giftoffer2 from '../../assets/Gifthomepage.png';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlay } from '@fortawesome/free-solid-svg-icons';
@@ -92,8 +92,11 @@ const Products = () => {
     }
   }, [remainingLoops]);
 
+  // ... (rest of the code)
+
   return (
     <div id="Products">
+       <div id="Products">
       <div className="overlay">
         <div className="background1">
           <img src={camoffer1} alt="camoffer1" />
@@ -150,6 +153,7 @@ const Products = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

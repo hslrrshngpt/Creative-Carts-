@@ -1,3 +1,4 @@
+// Info.js
 import React, { useState } from "react";
 import { queries } from "./api";
 import sourcecomponent from "../../assets/Faqs.png";
@@ -18,7 +19,7 @@ const Info = () => {
             <Accordian key={curElm.id} {...curElm} />
           ))}
         </section>
-        <img src={sourcecomponent} alt="FAQs" className="faqimg" loading="lazy" />
+        <img src={sourcecomponent} alt="FAQs" className="faqimg" />
       </div>
       <button className="moreFAQs">
         <a href="#">More FAQs</a>
